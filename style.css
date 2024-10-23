@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #2764bf;
-    --primary-color: #DDDDDD;
-    --secondary-color: #8e4b4b;
+    --bg-color: #ff00bf;
+    --primary-color: #00f7ff;
+    --secondary-color: #ffffff;
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -64,6 +64,7 @@ nav a:hover {
 span {
     font-weight: bold;
     color: var(--secondary-color);
+    border-bottom: 2px var(--secondary-color) solid;
 }
 
 footer {
